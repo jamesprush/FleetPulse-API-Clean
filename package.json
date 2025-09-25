@@ -1,0 +1,16 @@
+{
+  "name": "fleetpulse-email-api",
+  "version": "1.0.0",
+  "description": "FleetPulse Email API for sending weekly reports",
+  "main": "api/send-email.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "start": "echo 'Serverless functions deployed'"
+  },
+  "dependencies": {
+    "resend": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
